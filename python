@@ -1,0 +1,53 @@
+Conditional Statements
+Comparision Operators
+# = is an assignment operator, e.g., a = b assigns a with the value of b;
+# == is the question are these values equal? so a == b compares a and b.
+# It is a binary operator with left-sided binding. It needs two arguments and checks if they are equal.
+2 == 2
+True
+# The integer 2 is implicitly converted to a floating-point number, resulting in 2..
+# The comparison 2. == 2. is now between two floating-point numbers of the same value.
+2 == 2.
+True
+1 == 2
+False
+var = 0 #Assain 0 to var
+print(var == 0)
+True
+var = 1 #Asssain 1 to var
+print(var == 1)
+True
+var = 0 #Assain o to var
+print(var != 0)
+False
+var = 1 #ASSAIN 1 to var
+print(var != 1)
+False
+# Greater than or equal to
+centigrade_outside >= 0.0  
+current_velocity_mph < 85  # Less than
+current_velocity_mph <= 85  # Less than or equal to
+Priority Operator
+unary
++, -,** ,*, /, //, %
+binary +, -,<, <=, >, >=, ==, !=
+var = 55
+print(var != 55)
+False
+var = 99
+print(var != 99)
+False
+var = 100
+print(var == 100)
+True
+var = 101
+print(var == 101)
+True
+var = -5
+print(var != -5)
+False
+var = +123
+print(var == +123)
+True
+n = int(input("Enter a desired number"))
+print(n > 100)
